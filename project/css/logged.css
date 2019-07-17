@@ -1,0 +1,296 @@
+#header {
+    position:fixed;
+    width:100%;
+    height: 8vw;
+    background-color:black;
+    opacity: 0.7;
+}
+
+#bar1 {
+    list-style-type: none;
+    overflow: hidden;
+    margin: -30px;
+    margin-right: 0%;
+    padding: 0%;
+    padding-bottom: -50px;
+    padding-top: 30px;
+}
+
+#bar2 {
+    list-style-type: none;
+    overflow: hidden;
+    margin: -30px;
+    margin-right: 20%;
+    padding: 0%;
+    padding-bottom: 100px;
+    padding-top: 30px;
+    padding-right: -2%;
+}
+
+#bar2 .bar2 {
+    margin-top: 50px;
+}
+
+.bar , .bar2{
+    float: right;
+}
+
+.bar a, .bar2 button {
+    display: block;
+    color:white;
+    margin: 4vw 1.5vw;
+    text-align: center;
+    font-size: 1.5vw;
+    text-decoration: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+}
+
+.bar a:hover{
+    text-decoration: none;
+    color: blue;
+    overflow:hidden;
+}
+
+#logo {
+    width: 17vw;
+    height: 10vw;
+    margin-left: 3vw;
+    margin-top: 5px;
+    margin-bottom: -60px;
+
+}
+
+.bar2 a {
+    font-size: 3vw;
+}
+
+.bar2 button:hover{
+    text-decoration: none;
+    color: blue;
+    overflow:hidden;
+    border-color: blue;
+}
+
+.bar2 button {
+    display: block;
+    color:white;
+    margin: 4vw 3vw;
+    text-align: center;
+    font-size: 1.5vw;
+    text-decoration: none; 
+}
+
+#category{
+    background-image: url("../images/bg1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-attachment: fixed;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+button {
+    background: none;
+    padding: 1vw 2vw;
+}
+
+.cars img{ 
+    width: 38vw;
+    height: 23vw;
+    padding-bottom: 2vw;
+}
+
+.cars {
+    padding: 1vw;   
+    border:2px solid black;
+    margin: 4vw;
+    margin-top: -0vw;
+    width: 40vw;
+    height: 32vw;    
+}
+
+.cars h1 {
+    font-weight: bold;
+    font-size: 2vw;
+    color:white;
+}
+
+.right .cars{
+    float: right;
+    padding: 1vw;   
+    border:2px solid black;
+    margin: 4vw;
+    margin-top: -0vw;
+    width: 40vw;
+    height: 32vw;
+}
+
+.foot {
+    background-color: black;
+    opacity: 0.5;
+    padding: 50px;
+}
+
+.foot h1 {
+    color: white;
+    opacity: 1;
+    margin-top: 90px;
+    font-size: 3vw;
+}
+
+.foot #lef {
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size:1.5vw;
+    position: block;
+    float: left;
+}
+
+.foot #rig {
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size:1.5vw;
+    position: block;
+    float: right;
+    margin-right: 8vw;
+}
+
+.foot a {
+    color: white;
+    font-size: 2vw;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    float:center;
+    position: block;
+    margin-left: 20vw;
+}
+
+.modal-body {
+    height: 600px;
+    overflow-y: auto;
+}
+
+.modal-dialog div {
+    background: darkgrey;
+}
+
+.modal-body button {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#bentley-mulsanne img {
+    width: 36.5vw;
+}
+
+#bentley-mulsanne h1 {
+    font-size: 5vw;
+    margin-top: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow: 0px 0px 50px blue;
+}
+
+#bentley-mulsanne p {
+    font-size: 1vw;
+    margin-top: 50px;
+    text-shadow: 0px 0px 50px blue;
+}
+
+#bentley-mulsanne h3 {
+    font-size: 2vw;
+    margin-top: 30px;
+    text-shadow: 0px 0px 50px blue;
+}
+
+#bentley-continental img {
+    width: 36.5vw;
+}
+
+#bentley-continental h1 {
+    font-size: 5vw;
+    margin-top: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow: 0px 0px 50px orange;
+}
+
+#bentley-continental p {
+    font-size: 1vw;
+    margin-top: 50px;
+    text-shadow: 0px 0px 50px orange;
+}
+
+#bentley-continental h3 {
+    font-size: 2vw;
+    margin-top: 30px;
+    text-shadow: 0px 0px 50px orange;
+}
+
+#phantom img, #huracan img, #fortuner img, #evoque img {
+    width: 36.5vw;
+}
+
+#phantom h1 , #huracan h1 , #fortuner h1, #evoque h1{
+    font-size: 5vw;
+    margin-top: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow: 0px 0px 50px skyblue;
+}
+
+#phantom p , #huracan p, #fortuner p, #evoque p{
+    font-size: 1vw;
+    margin-top: 50px;
+    text-shadow: 0px 0px 50px skyblue;
+}
+
+#phantom h3 , #huracan h3, #fortuner h3, #evoque h3{
+    font-size: 2vw;
+    margin-top: 30px;
+    text-shadow: 0px 0px 50px skyblue;
+}
+
+#cullinan img ,#camaro img, #spider img, #creta img, #hector img {
+    width: 36.5vw;
+}
+
+#cullinan h1, #camaro h1, #spider h1, #creta h1 , #hector h1 {
+    font-size: 5vw;
+    margin-top: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow: 0px 0px 50px red;
+}
+
+#cullinan p , #camaro p, #spider p, #creta p, #hector p{
+    font-size: 1vw;
+    margin-top: 50px;
+    text-shadow: 0px 0px 50px red;
+}
+
+#cullinan h3 , #camaro h3, #spider h3, #creta h3, #hector h3{
+    font-size: 2vw;
+    margin-top: 30px;
+    text-shadow: 0px 0px 50px red;
+}
+
+#mustang img {
+    width: 36.5vw;
+}
+
+#mustang h1 {
+    font-size: 5vw;
+    margin-top: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow: 0px 0px 50px seagreen;
+}
+
+#mustang p {
+    font-size: 1vw;
+    margin-top: 50px;
+    text-shadow: 0px 0px 50px seagreen;
+}
+
+#mustang h3 {
+    font-size: 2vw;
+    margin-top: 30px;
+    text-shadow: 0px 0px 50px seagreen;
+}
+
+
+
+  

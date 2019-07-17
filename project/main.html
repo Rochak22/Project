@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Cosmos Motors</title>
+
+        <link rel="stylesheet" type="text/css" href="css/main.css">
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="scripts/categories.js"></script>
+
+    </head>
+    <body>
+                    <!-- The core Firebase JS SDK is always required and must be listed first -->
+  <script src="https://www.gstatic.com/firebasejs/4.8.1/firebase.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyC2JLXDfEaM8O1gsw48SHHFmhzeFTNL0yc",
+    authDomain: "cosmos-motor.firebaseapp.com",
+    databaseURL: "https://cosmos-motor.firebaseio.com",
+    projectId: "cosmos-motor",
+    storageBucket: "",
+    messagingSenderId: "553983840714",
+    appId: "1:553983840714:web:05328e00719f6621"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  
+</script>
+
+<script src="scripts/index.js"></script>
+
+
+        <div id="top"></div>
+        <!--------------------------------  HEADER  ------------------------------>
+        <div id="header">
+            <ul id="bar1">
+                    <li class="bar"><a data-toggle="modal" data-target="#signup"><span class="log">Sign Up</span></a></li>
+                    <li class="bar"><a data-toggle="modal" data-target="#login"><span class="log">Log In</span></a></li>
+                    <li class="bar"><a href="contact.html">Contact Us</a></li>
+                    <li class="bar"><a href="about.html">About Us</a></li>
+                    <li class="bar"><a href="event.html">Events</a></li>
+                    <li class="bar"><a href="main.html">Home</a></li>
+                    <li id="image"><img src="images/logo.png" id="logo"></li> 
+            </ul>
+
+            <p class="welcome"> Welcome &nbsp; To &nbsp; Cosmos &nbsp; Motors <br>
+            <span id="tag">A class of it's own</span>
+            </p>
+        </div>
+        <!----------------------------    END OF HEADER    ------------------------------->
+
+        <!--------------------------    SLIDER USING CAROUSAL    ------------------------->
+
+        <div id="slide" class="carousel slide" data-ride="carousel" data-interval="3000" data-pause="falses">
+
+                <ul class="carousel-indicators">
+                    <li data-target="#slide" data-slide-to="0" class="active"></li>
+                    <li data-target="#slide" data-slide-to="1"></li>
+                    <li data-target="#slide" data-slide-to="2"></li>
+                    <li data-target="#slide" data-slide-to="3"></li>
+                </ul>
+
+                <div class="carousel-inner">
+                        <div class="carousel-item active">
+                          <img src="images/corera.jpg" alt="Scene 0" width="100%" style="height: 50vw;">
+                          <div class="carousel-caption">
+                              <h1>Correra GT</h1>
+                          </div>
+                        </div>
+                        <div class="carousel-item">
+                          <img src="images/lam.png" alt="Scene 1" width="100%" style="height: 50vw;">
+                          <div class="carousel-caption">
+                              <h1>Lamborghini Huracan</h1>
+                          </div>
+                        </div>
+                        <div class="carousel-item">
+                          <img src="images/audi.jpg" alt="Scene 2" width="100%" style="height: 50vw;">
+                          <div class="carousel-caption">
+                            <h1>Audi R8</h1>
+                          </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/nissan.jpg" alt="Scene 2" width="100%" style="height: 50vw;">
+                            <div class="carousel-caption">
+                              <h1>Nissan GT-R</h1>
+                            </div>
+                        </div>
+                </div>
+                
+
+                <a class="carousel-control-prev" href="#slide" data-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                </a>
+                <a class="carousel-control-next" href="#slide" data-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                </a>
+            </div>
+
+            <!---------------------------       END OF SLIDER      ----------------------------->
+
+            <!--------------------------          CATEGORIES         ----------------------------->
+            <br>
+            <div id="category">
+            <ul id="bar1">
+                <li class="bar2"><button class="btn4">All</button></li>
+                <li class="bar2"><button class="btn3">SUV</button></li>
+                <li class="bar2"><button class="btn2">Sports</button></li>
+                <li class="bar2"><button class="btn1">Luxury</button></li>
+                <li id="image"><img src="images/logo.png" id="logo"></li> 
+            </ul>
+            
+            <!--------------------------       END OF CATEGORIES      ----------------------------->
+
+            <!---------------------------        LIST OF CARS         ----------------------------->
+
+            <div id="luxury">
+              <a data-toggle="modal" data-target="#login">
+              <div class="right">
+                <div class="cars">                
+                <img src="images/bently continental gt.jpg">
+                <center><h1> Bentley Continental GT </h1> </center>
+                <center><h1>Price: 3.12 Cr</h1></center>
+                </div>
+              </div>
+              </a>
+              <a data-toggle="modal" data-target="#login">
+              <div class="cars">
+                <img src="images/bently mulsanne.jpg">
+                <center><h1> Bentley Mulsanne </h1> </center>
+                <center><h1>Price: 5.56 Cr</h1></center>
+              </div>
+              </a>
+              <br>
+              <a data-toggle="modal" data-target="#login">
+              <div class="right">
+                <div class="cars">                
+                <img src="images/rolls royce cullinan.jpg">
+                <center><h1> Rolls Royce Cullinan </h1> </center>
+                <center><h1>Price: 6.95 Cr</h1></center>
+                </div>
+              </div>
+              </a>
+              <a data-toggle="modal" data-target="#login">
+              <div class="cars">
+                <img src="images/rolls royce phantom.jpg">
+                <center><h1> Rolls Royce Phantom </h1> </center>
+                <center><h1>Price: 8.99 Cr</h1></center>
+              </div>
+              </a>
+              &nbsp;
+            </div>
+
+            <br>
+
+            <div id="sports">
+                <a data-toggle="modal" data-target="#login">
+                <div class="right">
+                  <div class="cars">                 
+                  <img src="images/ford mustang.jpg">
+                  <center><h1> Ford Mustang GT </h1> </center>
+                  <center><h1>Price: 74.62 lakh</h1></center>
+                  </div>
+                </div>
+                </a>
+                <a data-toggle="modal" data-target="#login">
+                <div class="cars">
+                  <img src="images/chevrolet camaro.jpg">
+                  <center><h1> Chevrolet Camaro </h1> </center>
+                  <center><h1>Price: 50 lakh</h1></center>
+                </div>
+                </a>
+                <br>
+                <a data-toggle="modal" data-target="#login">
+                <div class="right">
+                  <div class="cars">                
+                  <img src="images/lamborghini huracan.jpg">
+                  <center><h1> Lamborghini Huracan </h1> </center>
+                  <center><h1>Price: 3.43 Cr</h1></center>
+                  </div>
+                </div>
+                </a>
+                <a data-toggle="modal" data-target="#login">
+                <div class="cars">
+                  <img src="images/ferrari 488 spyder.jpg">
+                  <center><h1> Ferrari 488 Spider </h1> </center>
+                  <center><h1>Price: 3.94 Cr</h1></center>
+                </div>
+                </a>
+                &nbsp;
+            </div>
+
+            <br>
+
+            <div id="suv">
+                <a data-toggle="modal" data-target="#login">
+                <div class="right">
+                  <div class="cars">                
+                  <img src="images/mg hector.jpg">
+                  <center><h1> MG Hector </h1> </center>
+                  <center><h1>Price: 12.18 lakh</h1></center>
+                  </div>
+                </div>
+                </a>
+                <a data-toggle="modal" data-target="#login">
+                <div class="cars">
+                  <img src="images/Hyundai Creta.jpg">
+                  <center><h1> Hyundai Creta </h1> </center>
+                  <center><h1>Price: 15.7 lakh</h1></center>
+                </div>
+                </a>
+                <br>
+                <a data-toggle="modal" data-target="#login">
+                <div class="right">
+                  <div class="cars">                
+                  <img src="images/rangerover evoque.jpg">
+                  <center><h1> Range Rover Evoque </h1> </center>
+                  <center><h1>Price: 52.06 Cr</h1></center>
+                  </div>
+                </div>
+                </a>
+                <a data-toggle="modal" data-target="#login">
+                <div class="cars">
+                  <img src="images/fortuner.jpg">
+                  <center><h1> Toyota Fortuner </h1> </center>
+                  <center><h1> Price: 31.68 lakh </h1></center>
+                </div>
+                </a>
+                &nbsp;
+            </div>
+          <!------------------------    END OF LIST OF CARS  ------------------------------>
+
+          <!------------------------          FOOTER           ----------------------------->
+
+          <div class="foot">
+            <div>
+            <p id="lef">What are you waiting for ? <br>
+             Experience class of a Different Level
+            </p>
+            <p id="rig"> Great offers awaiting!!!....  <br>
+              Free maintenance Coupans
+            </p>
+            <p id="cen">
+              <a href="#top">Go to Top</a>
+            </p>
+            </div>
+              <center><h1>Join us on various Platforms</h1></center><br>
+              <center>
+                <span class="	fa fa-instagram" style="font-size:36px; color: white; padding: 10px 15px;"></span> 
+                <span class="fa fa-facebook" style="font-size:36px; color: white; padding: 10px 15px;"></span>
+                <span class="fa fa-twitter" style="font-size:36px; color: white; padding: 10px 15px;"></span> 
+                <span class="fa fa-youtube" style="font-size:36px; color: white; padding: 10px 15px;"></span><br>
+              </center>
+              
+              </div>
+          </div>
+          <!------------------------   END OF FOOTER        ------------------------------->
+
+          <!------------------------      LOG-IN  MODAL      ------------------------------>
+
+          <div class="modal fade" id="login" role="dialog">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                  </div>
+                  <div class="modal-body">
+                    <img src="images/logo.png" class="modal-title" style="float:right;"height="200px" width="300px;">
+                    <h3 style="margin: 90px 40px;">Welcome &nbsp; &nbsp;To </h3>
+                    <center><h3>Please &nbsp; Login &nbsp; To &nbsp; Continue</h3></center>
+                    <br>
+                    <form class="needs-validation"  method='post'>
+                        <div class="form-group">
+                            <label for="Name">Name:</label>
+                            <div class="inner-addon">
+                            <i class="glyphicon glyphicon-user" style="color: black;"></i>
+                            <input type="text" class="form-control" id="Name" placeholder="Enter Your Full Name" name="Name" required>
+                            </div>
+                            <div class="invalid-feedback">Please fill out this field.</div>
+                        </div>
+                        <div class="form-group">
+                          <label for="email">Email:</label>
+                          <div class="inner-addon left-addon">
+                          <i class="glyphicon glyphicon-envelope" style="color: black;"></i>  
+                          <input type="text" class="form-control" id="email" onclick="uname()" placeholder="Enter E-mail" name="email"required>
+                          </div>
+                          <div class="valid-feedback">Valid.</div>
+                          <div class="invalid-feedback">Please fill out this field.</div>
+                        </div>
+                        <div class="form-group">
+                          <label for="pwd">Password:</label>
+                          <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pswd" required>
+                          <div class="valid-feedback">Valid.</div>
+                          <div class="invalid-feedback">Please fill out this field.</div>
+                        </div>
+                        <div class="form-group form-check">
+                          <label class="form-check-label">
+                            <p style="font-size: 15px;">
+                            <input class="form-check-input" type="checkbox" name="remember"> &nbsp; &nbsp; &nbsp;
+                            Click here to save Password</p> 
+                            <div class="valid-feedback">Your password will be saved</div>
+                          </label>
+                        </div>
+                      </form>
+                        <div style="color:white; font-size: 13px;">
+                        <button class="btn btn-primary" onclick="login()" style="margin-left: 100px; padding:10px; font-size: 20px;">Login</button>
+                        &nbsp;Don't have an Account ? Click here to 
+                        <a style="color: skyblue;" data-dismiss="modal" data-toggle="modal" data-target="#signup">sign up</a></div>
+                      
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!----------------------   END OF LOGIN MODAL   ------------------------>
+
+            <!----------------------    SIGN UP MODAL       ------------------------>
+
+            <div class="modal fade" id="signup" role="dialog">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    </div>
+                    <div class="modal-body">
+                        <img src="images/logo.png" class="modal-title" style="float:right;"height="200px" width="300px;">
+                        <h3 style="margin: 90px 40px;">Welcome &nbsp; &nbsp;To </h3>
+                        <form class="needs-validation"  method='post'>
+                            <div class="form-group">
+                                <label for="Name1">Name:</label>
+                                <div class="inner-addon">
+                                <i class="glyphicon glyphicon-user" style="color: black;"></i>
+                                <input type="text" class="form-control" id="Name1" placeholder="Enter Your Full Name" name="Name1" required>
+                                </div>
+                                <div class="invalid-feedback">Please fill out this field.</div>
+                            </div>
+                            <div class="form-group">
+                                <label for="address">Address:</label>
+                                <div class="inner-addon">
+                                <i class="glyphicon glyphicon-home" style="color: black;"></i>
+                                <textarea class="form-control" id="address" placeholder="Enter Your Full Address" name="address" required></textarea>
+                                </div>
+                                <div class="invalid-feedback">Please fill out this field.</div>
+                              </div>
+                            <div class="form-group">
+                              <label for="email1">Email:</label>
+                              <div class="inner-addon">
+                              <i class="glyphicon glyphicon-envelope" style="color: black;"></i>
+                              <input type="text" class="form-control" id="email1" placeholder="Enter E-mail" name="email1" required>
+                              </div>
+                              <div class="invalid-feedback">Please fill out this field.</div>
+                            </div>
+                            <div class="form-group">
+                              <label for="pwd1">Password:</label>
+                              <input type="password" class="form-control" id="pwd1" placeholder="Enter password" name="pwd1" required>
+                              <div class="invalid-feedback">Please fill out this field.</div>
+                            </div>
+                            <div class="form-group">
+                                <label for="cpwd">Confirm Password:</label>
+                                <input type="password" class="form-control" id="cpwd" placeholder="Enter password" name="cpwd" required>
+                                <div class="invalid-feedback">Please fill out this field.</div>
+                              </div>
+                            <div class="form-group form-check">
+                              <label class="form-check-label">
+                                <p style="font-size: 15px;">
+                                <input class="form-check-input" type="checkbox" name="remember" onclick="checkpwd()" required> &nbsp; &nbsp; &nbsp;
+                                I herby confirm, That all the information above is genuine and correct</p> 
+                                <div class="invalid-feedback">Please approve this field.</div>
+                              </label>
+                            </div>
+                          </form>
+                            <center><button class="btn btn-primary" onclick="signup()" data-dismiss="modal" style="padding:10px; font-size: 20px; width:120px;">Sign Up</button></center>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!------------------------    END OF SIGN-UP MODAL   ----------------------------->
+
+
+    </body>
+</html>
+

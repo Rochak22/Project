@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Contact Us</title>
+
+        <link rel="stylesheet" type="text/css" href="css/contact.css">
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+    </head>
+    <body>
+
+        <!-- The core Firebase JS SDK is always required and must be listed first -->
+  <script src="https://www.gstatic.com/firebasejs/4.8.1/firebase.js"></script>
+
+  <script>
+    // Your web app's Firebase configuration
+    var firebaseConfig = {
+      apiKey: "AIzaSyC2JLXDfEaM8O1gsw48SHHFmhzeFTNL0yc",
+      authDomain: "cosmos-motor.firebaseapp.com",
+      databaseURL: "https://cosmos-motor.firebaseio.com",
+      projectId: "cosmos-motor",
+      storageBucket: "",
+      messagingSenderId: "553983840714",
+      appId: "1:553983840714:web:05328e00719f6621"
+    };
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+    
+  </script>
+  
+  <script src="scripts/index.js"></script>
+
+
+            <div id="header">
+                    <ul id="bar1">
+                         <li class="bar"><a data-toggle="modal" data-target="#signup"><span class="log">Sign Up</span></a></li>
+                         <li class="bar"><a data-toggle="modal" data-target="#login"><span class="log">Log In</span></a></li>
+                         <li class="bar"><a href="contact.html">Contact Us</a></li>
+                         <li class="bar"><a href="about.html">About Us</a></li>
+                         <li class="bar"><a href="event.html">Events</a></li>
+                         <li class="bar"><a href="main.html">Home</a></li>
+                         <li id="image"><img src="images/logo.png" id="logo"></li> 
+                     </ul>
+            </div>
+            <br>
+            <div id="box">
+                <img src="images/contact.jpg">
+                <center><h1>Cosmos Motors</h1></center>
+                <span class="address"><h1>Address :</h1>
+                    <h2>795 Cosmo's Motors,Cyber Town,<br>Delhi</h2>
+                </span>
+                <span class="address ,botom"><h1>Email :</h1>
+                    <h2>cosmosmotor@gmail.com</h2><br>
+                </span>
+                <span class="address , botom"><h1>Contact No :</h1>
+                    <h2>11323-78956 , 11323-78957</h2><br>
+                </span>
+            </div>
+
+            <!------------------------      LOG-IN  MODAL      ------------------------------>
+
+          <div class="modal fade" id="login" role="dialog">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    </div>
+                    <div class="modal-body">
+                      <img src="images/logo.png" class="modal-title" style="float:right;"height="200px" width="300px;">
+                      <h3 style="margin: 90px 40px;">Welcome &nbsp; &nbsp;To </h3>
+                      <center><h3>Please &nbsp; Login &nbsp; To &nbsp; Continue</h3></center>
+                      <br>
+                      <form class="needs-validation"  method='post'>
+                          <div class="form-group">
+                              <label for="Name">Name:</label>
+                              <div class="inner-addon">
+                              <i class="glyphicon glyphicon-user" style="color: black;"></i>
+                              <input type="text" class="form-control" id="Name" placeholder="Enter Your Full Name" name="Name" required>
+                              </div>
+                              <div class="invalid-feedback">Please fill out this field.</div>
+                          </div>
+                          <div class="form-group">
+                            <label for="email">Email:</label>
+                            <div class="inner-addon left-addon">
+                            <i class="glyphicon glyphicon-envelope" style="color: black;"></i>  
+                            <input type="text" class="form-control" id="email" onclick="uname()" placeholder="Enter E-mail" name="email"required>
+                            </div>
+                            <div class="valid-feedback">Valid.</div>
+                            <div class="invalid-feedback">Please fill out this field.</div>
+                          </div>
+                          <div class="form-group">
+                            <label for="pwd">Password:</label>
+                            <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pswd" required>
+                            <div class="valid-feedback">Valid.</div>
+                            <div class="invalid-feedback">Please fill out this field.</div>
+                          </div>
+                          <div class="form-group form-check">
+                            <label class="form-check-label">
+                              <p style="font-size: 15px;">
+                              <input class="form-check-input" type="checkbox" name="remember"> &nbsp; &nbsp; &nbsp;
+                              Click here to save Password</p> 
+                              <div class="valid-feedback">Your password will be saved</div>
+                            </label>
+                          </div>
+                        </form>
+                          <div style="color:white; font-size: 13px;">
+                          <button class="btn btn-primary" onclick="login()" style="margin-left: 100px; padding:10px; font-size: 20px;">Login</button>
+                          &nbsp;Don't have an Account ? Click here to 
+                          <a style="color: skyblue;" data-dismiss="modal" data-toggle="modal" data-target="#signup">sign up</a></div>
+                        
+                    </div>
+                  </div>
+                </div>
+              </div>
+  
+              <!----------------------   END OF LOGIN MODAL   ------------------------>
+  
+              <!----------------------    SIGN UP MODAL       ------------------------>
+  
+              <div class="modal fade" id="signup" role="dialog">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                      </div>
+                      <div class="modal-body">
+                          <img src="images/logo.png" class="modal-title" style="float:right;"height="200px" width="300px;">
+                          <h3 style="margin: 90px 40px;">Welcome &nbsp; &nbsp;To </h3>
+                          <form class="needs-validation"  method='post'>
+                              <div class="form-group">
+                                  <label for="Name1">Name:</label>
+                                  <div class="inner-addon">
+                                  <i class="glyphicon glyphicon-user" style="color: black;"></i>
+                                  <input type="text" class="form-control" id="Name1" placeholder="Enter Your Full Name" name="Name1" required>
+                                  </div>
+                                  <div class="invalid-feedback">Please fill out this field.</div>
+                              </div>
+                              <div class="form-group">
+                                  <label for="address">Address:</label>
+                                  <div class="inner-addon">
+                                  <i class="glyphicon glyphicon-home" style="color: black;"></i>
+                                  <textarea class="form-control" id="address" placeholder="Enter Your Full Address" name="address" required></textarea>
+                                  </div>
+                                  <div class="invalid-feedback">Please fill out this field.</div>
+                                </div>
+                              <div class="form-group">
+                                <label for="email1">Email:</label>
+                                <div class="inner-addon">
+                                <i class="glyphicon glyphicon-envelope" style="color: black;"></i>
+                                <input type="text" class="form-control" id="email1" placeholder="Enter E-mail" name="email1" required>
+                                </div>
+                                <div class="invalid-feedback">Please fill out this field.</div>
+                              </div>
+                              <div class="form-group">
+                                <label for="pwd1">Password:</label>
+                                <input type="password" class="form-control" id="pwd1" placeholder="Enter password" name="pwd1" required>
+                                <div class="invalid-feedback">Please fill out this field.</div>
+                              </div>
+                              <div class="form-group">
+                                  <label for="cpwd">Confirm Password:</label>
+                                  <input type="password" class="form-control" id="cpwd" placeholder="Enter password" name="cpwd" required>
+                                  <div class="invalid-feedback">Please fill out this field.</div>
+                                </div>
+                              <div class="form-group form-check">
+                                <label class="form-check-label">
+                                  <p style="font-size: 15px;">
+                                  <input class="form-check-input" type="checkbox" name="remember" onclick="checkpwd()" required> &nbsp; &nbsp; &nbsp;
+                                  I herby confirm, That all the information above is genuine and correct</p> 
+                                  <div class="invalid-feedback">Please approve this field.</div>
+                                </label>
+                              </div>
+                            </form>
+                              <center><button class="btn btn-primary" onclick="signup()" data-dismiss="modal" style="padding:10px; font-size: 20px; width:120px;">Sign Up</button></center>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+  
+                <!------------------------    END OF SIGN-UP MODAL   ----------------------------->
+  
+    </body>
+</html>

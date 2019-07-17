@@ -1,0 +1,225 @@
+#header {
+    width:100%;
+    height: 7vw;
+    background-color:black;
+    opacity: 0.7;
+    position: fixed;
+}
+
+#bar1 {
+    list-style-type: none;
+    overflow: hidden;
+    margin: -30px;
+    margin-right: 0%;
+    padding: 0%;
+    padding-bottom: -50px;
+}
+
+.bar {
+    float: right;
+}
+
+.bar a {
+    display: block;
+    color:white;
+    margin: 4vw 2vw;
+    text-align: center;
+    font-size: 1.5vw;
+    text-decoration: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+}
+
+.bar a:hover{
+    text-decoration: none;
+    color: blue;
+    overflow:hidden;
+}
+
+#logo {
+    width: 17vw;
+    height: 10vw;
+    margin-left: 3vw;
+    margin-top: 5px;
+    margin-bottom: -60px;
+
+}
+
+.we {
+    background-image: url("../images/about1.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+    margin-top: -20px;
+}
+
+.we h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    font-size: 5vw;
+    padding: 15vw 10vw 4vw 5vw;
+    text-shadow: 0px 0px 50px red;
+}
+
+.we p {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.5vw;
+    padding-left: 3vw;
+    padding-bottom: 4vw;
+    color: darkblue;
+    text-shadow: 0px 0px 30px green;
+}
+
+.mechanics {
+    background-image: url("../images/about.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+    margin-top: -20px;
+}
+
+.mechanics h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    font-size: 5vw;
+    padding: 10vw 10vw 4vw 10vw;
+    color: red;
+    text-shadow: 0px 0px 50px blueviolet;
+}
+
+.mechanics p {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.5vw;
+    padding-left: 5vw;
+    padding-bottom: 10vw;
+    color: blue;
+    text-shadow: 0px 0px 30px green;
+}
+
+.performance {
+    background-image: url("../images/mc.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+    margin-top: -20px;
+}
+
+.performance #p1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    font-size: 5vw;
+    padding: 5vw 10vw 2vw 10vw;
+    color: Black;
+    text-shadow: 0px 0px 50px blueviolet;
+}
+
+.performance #p2 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.5vw;
+    padding-left: 20vw;
+    padding-bottom: 30vw;
+    color:black;
+    text-shadow: 0px 0px 30px green;
+}
+
+.foot {
+    background-color: black;
+    opacity: 0.5;
+    padding: 50px;
+}
+
+.foot h1 {
+    color: white;
+    opacity: 1;
+    margin-top: 90px;
+    font-size: 3vw;
+}
+
+.foot #lef {
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size:1.5vw;
+    position: block;
+    float: left;
+}
+
+.foot #rig {
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size:1.5vw;
+    position: block;
+    float: right;
+    margin-right: 8vw;
+}
+
+.foot a {
+    color: white;
+    font-size: 2vw;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    float:center;
+    position: block;
+    margin-left: 20vw;
+}
+
+.modal-dialog div {
+    background: black;
+    opacity: 0.7;
+}
+
+.modal-dialog h3 {
+    color:white;
+}
+
+.form-group {
+    color: white;
+    font-size: 20px;
+    margin: 20px;
+}
+
+.modal-body {
+    height: 600px;
+    overflow-y: auto;
+}
+
+.modal-dialog {
+    width: 500px;
+    height: 700px;
+}
+
+#email , #pwd , #cpwd , #Name , #address , #Name1 , #email1 , #pwd1 {
+    font-size: 15px;
+    height: 40px;
+}
+
+.inner-addon {
+    position: relative;
+}
+  
+  
+.inner-addon .glyphicon {
+    position: absolute;
+    padding: 10px;
+    pointer-events: none;
+}
+
+.inner-addon .glyphicon  { 
+    left:  0px;
+    background-color: grey;
+    margin-top:-1px;
+    border-radius: 2px;
+}
+  
+.inner-addon input  { 
+    padding-left: 50px; 
+}
+
+.inner-addon textarea {
+    padding-left: 40px;
+    overflow: auto; 
+}
+
+.log {
+    color:white;
+}
+  
+
+

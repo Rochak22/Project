@@ -1,0 +1,227 @@
+#header {
+    background-image: url("../images/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-attachment: fixed;
+}
+
+#bar1 {
+    list-style-type: none;
+    overflow: hidden;
+    margin: 0%;
+    padding: 0%;
+}
+
+.bar , .bar2 {
+    float: right;
+}
+
+.bar a , .bar2 button {
+    display: block;
+    color:white;
+    margin: 4vw 2vw;
+    text-align: center;
+    font-size: 1.5vw;
+    text-decoration: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+}
+
+.bar2 a {
+    font-size: 3vw;
+}
+
+.bar a:hover{
+    text-decoration: none;
+    color: blue;
+    overflow:hidden;
+}
+
+.bar2 button:hover{
+    text-decoration: none;
+    color: blue;
+    overflow:hidden;
+    border-color: blue;
+}
+
+#logo {
+    width: 30vw;
+    height: 20vw;
+    margin-left: 3vw;
+    margin-top: -50px; 
+}
+
+.welcome {
+    padding: 5vw;
+    font-size: 1.75vw;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    padding-bottom:20vw;
+    margin-left: 50px;
+}
+
+#tag {
+    font-size: 1.25vw;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.carousel-caption, #category {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#category{
+    background-image: url("../images/bg1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-attachment: fixed;
+}
+
+button {
+    background: none;
+    padding: 1vw 2vw;
+}
+
+.cars img{ 
+    width: 38vw;
+    height: 23vw;
+    padding-bottom: 2vw;
+}
+
+.cars {
+    padding: 1vw;   
+    border:2px solid black;
+    margin: 4vw;
+    margin-top: -0vw;
+    width: 40vw;
+    height: 30vw;    
+}
+
+.cars h1 {
+    font-weight: bold;
+    font-size: 2vw;
+    color:white;
+}
+
+.right .cars{
+    float: right;
+    padding: 1vw;   
+    border:2px solid black;
+    margin: 4vw;
+    margin-top: -0vw;
+    width: 40vw;
+    height: 30vw;
+}
+
+.bar2 button {
+    display: block;
+    color:white;
+    margin: 4vw 3vw;
+    text-align: center;
+    font-size: 1.5vw;
+    text-decoration: none; 
+}
+
+.modal-dialog div {
+    background: black;
+    opacity: 0.7;
+}
+
+.modal-dialog h3 {
+    color:white;
+}
+
+.form-group {
+    color: white;
+    font-size: 20px;
+    margin: 20px;
+}
+
+.modal-body {
+    height: 600px;
+    overflow-y: auto;
+}
+
+.modal-dialog {
+    width: 500px;
+    height: 700px;
+}
+
+#email , #pwd , #cpwd , #Name , #address , #Name1 , #email1 , #pwd1 {
+    font-size: 15px;
+    height: 40px;
+}
+
+.inner-addon {
+    position: relative;
+}
+  
+  
+.inner-addon .glyphicon {
+    position: absolute;
+    padding: 10px;
+    pointer-events: none;
+}
+
+.inner-addon .glyphicon  { 
+    left:  0px;
+    background-color: grey;
+    margin-top:-1px;
+    border-radius: 2px;
+}
+  
+.inner-addon input  { 
+    padding-left: 50px; 
+}
+
+.inner-addon textarea {
+    padding-left: 40px;
+    overflow: auto; 
+}
+
+.foot {
+    background-color: black;
+    opacity: 0.5;
+    padding: 50px;
+}
+
+.foot h1 {
+    color: white;
+    opacity: 1;
+    margin-top: 90px;
+    font-size: 3vw;
+}
+
+.bar .log{
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.bar .log:hover{
+    color: blue;
+}
+
+.foot #lef {
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size:1.5vw;
+    position: block;
+    float: left;
+}
+
+.foot #rig {
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size:1.5vw;
+    position: block;
+    float: right;
+    margin-right: 8vw;
+}
+
+.foot a {
+    color: white;
+    font-size: 2vw;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    float:center;
+    position: block;
+    margin-left: 20vw;
+}
+  
